@@ -1,0 +1,74 @@
+/* src/App.scss */
+$primary-color: #61dafb;
+
+* {
+  background-color: rgb(36, 34, 34);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+  text-align: center;
+}
+
+section {
+
+  display: flex;
+  gap: 10px;
+
+  input {
+    background-color: aliceblue;
+    border: none;
+  }
+
+  button {
+    background-color: aliceblue;
+    border: none;
+  }
+}
+
+div {
+  .respostaCEP {
+    color: aliceblue;
+    display: flex;
+  }
+}
+
+.corpoFilme {
+  button {
+    background-color: aliceblue;
+    border: none;
+  }
+}
+
+.respostaFilme {
+  p {
+    color: aliceblue;
+  }
+}
+
+
+.buscarAtivos {
+  display: flex;
+  gap: 10px;
+
+  input {
+    background-color: aliceblue;
+    border: none;
+  }
+
+  button {
+    background-color: aliceblue;
+    border: none;
+  }
+}
+
+.respostaAtivos {
+  p {
+    color: aliceblue;
+  }
+}
