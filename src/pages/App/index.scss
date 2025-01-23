@@ -72,3 +72,26 @@ div {
     color: aliceblue;
   }
 }
+
+.inserirFilme{
+
+  .inserirCampos{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    input{
+      background-color: aliceblue;
+      border: none;
+    }
+    label{
+      color: aliceblue;
+    }
+      .radioOptions{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+      }
+  }
+}
